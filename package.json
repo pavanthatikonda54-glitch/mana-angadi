@@ -1,0 +1,13 @@
+{
+  "name": "mana-angadi",
+  "version": "1.0.0",
+  "description": "MaNa Angadi - Multi-Vendor Regional Marketplace Platform",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "seed": "npm --prefix backend run seed",
+    "test": "npm --prefix backend run test"
+  }
+}
